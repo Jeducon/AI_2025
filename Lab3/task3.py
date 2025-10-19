@@ -48,7 +48,7 @@ grid_x = st.number_input("num of columns (grid_x)", 2, 20, 5)
 grid_y = st.number_input("num of rows (grid_y)", 2, 20, 5)
 thr = st.slider("edge of black pixel", 0, 255, 128)
 metric = st.radio("choose metric:", ["Euclidic", "Manhattan", "Chebishev"])
-num_classes = st.number_input("number of classes", 3, 12, 5)
+num_classes = st.number_input("number of classes", 3, 12, 3)
 
 st.divider()
 st.subheader("Enter training BMPs per class")
